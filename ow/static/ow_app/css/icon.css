@@ -1,0 +1,52 @@
+.icon::before{
+	height: 20px;
+    width: 20px;
+    display: inline-block;
+	background-size: cover;
+	content: ' ';
+}
+
+.icon.outbound::before{
+	background-image: url('../images/icon/outbound_white_24dp.svg');
+}
+.icon.outbound:hover::before{
+	background-image: url('../images/icon/outbound_black_24dp.svg');
+}
+
+.icon.dashboard::before{
+	background-image: url('../images/icon/dashboard_white_24dp.svg');
+}
+.icon.dashboard:hover::before{
+	background-image: url('../images/icon/dashboard_black_24dp.svg');
+}
+
+.icon.sensors::before{
+	background-image: url('../images/icon/sensors_white_24dp.svg');
+}
+.icon.sensors:hover::before{
+	background-image: url('../images/icon/sensors_black_24dp.svg');
+}
+
+.icon.picture_in_picture::before{
+	background-image: url('../images/icon/picture_in_picture_white_24dp.svg');
+}
+.icon.picture_in_picture:hover::before{
+	background-image: url('../images/icon/picture_in_picture_black_24dp.svg');
+}
+
+.instagram{
+	height: 40px;
+    width: 40px;
+    display: inline-block;
+	background-size: cover;
+	content: ' ';
+	background-image: url('../images/icon/instagram1.svg');
+}
+.vk {
+	height: 40px;
+    width: 40px;
+    display: inline-block;
+	background-size: cover;
+	content: ' ';
+	background-image: url('../images/icon/vk.svg');
+}
